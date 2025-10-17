@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Cadastro - Teste Automatizado</title>
+    <!-- Arquivo de estilos CSS externo -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Formulário de Cadastro</h1>
+        <p class="subtitle">Preencha os campos abaixo para se cadastrar</p>
+        
+        <form id="formularioCadastro" action="#" method="post">
+            <div class="form-group">
+                <label for="nome">Nome Completo *</label>
+                <input 
+                    type="text" 
+                    id="nome" 
+                    name="nome" 
+                    required 
+                    minlength="10"
+                    placeholder="Digite seu nome completo"
+                    autocomplete="name"
+                >
+                <p class="info-campo">Mínimo de 3 caracteres</p>
+            </div>
+
+            <div class="form-group">
+                <label for="email">E-mail *</label>
+                <input 
+                    type="email" 
+                    id="email" 
+                    name="email" 
+                    required 
+                    placeholder="seu@email.com"
+                    autocomplete="email">
+                <p class="info-campo">Digite um e-mail válido</p>
+            </div>
+
+            <div class="form-group">
+                <label for="telefone">Telefone *</label>
+                <input 
+                    type="tel" 
+                    id="telefone" 
+                    name="telefone" 
+                    required 
+                    placeholder="(00) 00000-0000"
+                    autocomplete="tel"
+                >
+                <p class="info-campo">Formato: (00) 00000-0000</p>
+            </div>
+
+            <div class="form-group">
+                <label for="senha">Senha *</label>
+                <input 
+                    type="password" 
+                    id="senha" 
+                    name="senha" 
+                    required 
+                    minlength="6"
+                    placeholder="Mínimo 6 caracteres"
+                    autocomplete="new-password"
+                >
+                <p class="info-campo">Mínimo de 6 caracteres</p>
+            </div>
+
+            <div class="form-group">
+                <label for="confirmarSenha">Confirmar Senha *</label>
+                <input 
+                    type="password" 
+                    id="confirmarSenha" 
+                    name="confirmarSenha" 
+                    required 
+                    minlength="6"
+                    placeholder="Digite a senha novamente"
+                    autocomplete="new-password"
+                >
+                <p class="info-campo">As senhas devem ser iguais</p>
+            </div>
+
+            <button type="submit" id="btnEnviar">Cadastrar</button>
+        </form>
+
+        <div id="mensagemSucesso" class="mensagem-sucesso">
+            ✓ Cadastro realizado com sucesso!
+        </div>
+    </div>
+
+    <!-- Arquivo de scripts JavaScript externo -->
+    <script src="script.js"></script>
+</body>
+</html>
+

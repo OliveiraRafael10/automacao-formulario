@@ -1,0 +1,43 @@
+# Arquivo de Dados para Testes Automatizados
+# Formato: chave=valor
+# Use --- para separar diferentes cenários de teste
+# Linhas começando com # são comentários
+
+# CENÁRIO 1: Teste com dados válidos
+nome=João Pedro Oliveira
+email=joao.pedro@example.com
+telefone=(11) 99876-5432
+senha=Senha@2024
+confirmarSenha=Senha@2024
+---
+
+# CENÁRIO 2: Outro conjunto de dados válidos
+nome=Ana Carolina Souza
+email=ana.carolina@empresa.com.br
+telefone=(21) 98765-4321
+senha=Teste123456
+confirmarSenha=Teste123456
+---
+
+# CENÁRIO 3: Usuário de São Paulo
+nome=Carlos Eduardo Santos
+email=carlos.eduardo@gmail.com
+telefone=(11) 98888-7777
+senha=Carlos@123
+confirmarSenha=Carlos@123
+---
+
+# CENÁRIO 4: Usuária do Rio de Janeiro
+nome=Mariana Oliveira Costa
+email=mariana.costa@outlook.com
+telefone=(21) 97777-6666
+senha=Mari2024!
+confirmarSenha=Mari2024!
+
+# CENÁRIO 5: Usuário do Rio de Janeiro
+nome=Marcos Oliveira da Silva
+email=marcos.olive@outlook.com
+telefone=(21) 97754-4444
+senha=Marcos123
+confirmarSenha=Marcos123
+

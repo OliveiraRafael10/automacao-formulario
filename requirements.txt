@@ -1,0 +1,15 @@
+# Dependências do Projeto - Testes Automatizados com Selenium
+# Instale com: pip install -r requirements.txt
+
+# Selenium - Framework de automação de navegadores
+selenium>=4.15.0
+
+# WebDriver Manager - Gerenciamento automático de drivers
+webdriver-manager>=4.0.0
+
+# Bibliotecas opcionais para aprimoramento
+# Descomente se desejar usar:
+
+# pytest>=7.4.0              # Framework de testes
+# pytest-html>=4.0.0         # Relatórios HTML para pytest
+
