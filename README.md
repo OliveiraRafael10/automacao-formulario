@@ -90,33 +90,10 @@ confirmarSenha=Senha@2024
 - Linhas iniciadas com `#` são comentários
 - Formato: `chave=valor`
 
-## Tecnologias Utilizadas
-
-- **Python 3**: Linguagem de programação
-- **Selenium WebDriver**: Automação de navegadores
-- **WebDriver Manager**: Gerenciamento automático de drivers do Chrome
-- **HTML/CSS/JavaScript**: Interface do formulário
-
-## Funcionalidades do Script
-
-- Carregamento automático de múltiplos cenários de teste
-- Preenchimento automático de formulários
-- Validação de mensagens de sucesso
-- Relatório de execução no console
-- Espera inteligente de elementos (WebDriverWait)
 
 ## Personalização
 
 Para adicionar novos testes, edite o arquivo `dados_teste.txt` e adicione novos cenários seguindo o formato existente.
-
-## Observações
-
-- O navegador Chrome será aberto automaticamente durante os testes
-- Aguarde a conclusão de todos os testes antes de fechar manualmente
-- Os testes incluem pausas estratégicas para visualização do processo
-- Certifique-se de que o Google Chrome está instalado no sistema
-
-## Autor
 
 Projeto desenvolvido para fins acadêmicos e demonstração de automação de testes.
 
