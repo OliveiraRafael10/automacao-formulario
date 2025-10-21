@@ -33,6 +33,7 @@ email=mariana.costa@outlook.com
 telefone=(21) 97777-6666
 senha=Mari2024!
 confirmarSenha=Mari2024!
+---
 
 # CENÁRIO 5: Usuário do Rio de Janeiro
 nome=Marcos Oliveira da Silva
@@ -40,4 +41,11 @@ email=marcos.olive@outlook.com
 telefone=(21) 97754-4444
 senha=Marcos123
 confirmarSenha=Marcos123
+---
 
+# CENÁRIO 6: Usuário de Capivari
+nome=Rafael Oliveira
+email=Rafa.olive@gmail.com
+telefone=(19) 98955-3434
+senha=Rafa1234
+confirmarSenha=Rafa1234
